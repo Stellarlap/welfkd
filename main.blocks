@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="F;qDCx4PA^~Jn`:j~?8e">string</variable><variable id="|#Q2zwIWlH)r-{SX{WYJ">number</variable><variable id="=`7OLx?gVmv}?z^+NNJx">sprite</variable><variable id="F=EVN+8ynYt%Fl118S2v">strike</variable></variables><block type="device_button_event" id="43y4nP^*#u?+:jffYQt(" x="0" y="0"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="variables_set" id="@u8:keeBFATY*+}LOu!p"><field name="VAR" id="|#Q2zwIWlH)r-{SX{WYJ">number</field><value name="VALUE"><shadow type="math_number" id="nt:wSm5W}E.RhI8)(?UQ"><field name="NUM">0</field></shadow></value><next><block type="variables_set" id="(_mCHx2v:r/!2m;)${7s"><field name="VAR" id="|#Q2zwIWlH)r-{SX{WYJ">number</field><value name="VALUE"><shadow type="math_number" id="h/6WttIV8i@:Bocl-,.G"><field name="NUM">4</field></shadow></value><next><block type="device_show_number" id="sYv:MQ~8yN*a7k`%v8Xr"><value name="number"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="Cy5ZiP3RT72~Fz(GGm#_"><field name="VAR" id="|#Q2zwIWlH)r-{SX{WYJ">number</field></block></value><next><block type="device_show_leds" id="2fs=2P4Vp$yKA_+A[]i:"><field name="LEDS">`
+        . # # # . 
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        . # # # .
+        `</field></block></next></block></next></block></next></block></statement></block><block type="device_button_event" id="d{istli56%{vgD=%|f.Y" x="402" y="13"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="variables_set" id="j9ob*A}MJrCYw-G[.*Mq"><field name="VAR" id="F=EVN+8ynYt%Fl118S2v">strike</field><value name="VALUE"><shadow type="math_number" id="#H!BvLo=+B3h_02pYwc}"><field name="NUM">3</field></shadow></value><next><block type="device_show_number" id="gp;lFS+a1qyv6OuhvAcT"><value name="number"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="zh$m+)r[bFn*3WsX{C:e"><field name="VAR" id="F=EVN+8ynYt%Fl118S2v">strike</field></block></value><next><block type="device_show_leds" id="7+U3Hf^X!}X.BQ?fn@T3"><field name="LEDS">`
+        # . . . # 
+        . # . # . 
+        . . # . . 
+        . # . # . 
+        # . . . #
+        `</field></block></next></block></next></block></statement></block></xml>
